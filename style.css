@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #413b3b, #141313);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar img {
+    margin-left: 25px;
+    display: inherit;
+    justify-content: fle;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 57%;
+}
+
+.navbar a {
+    text-decoration-line:none;
+    color: white;
+    font-size: 25px;
+    margin-left: 80px;
+    display:inherit;
+}
+
+body { 
+    background-image: url(img/Fundo\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #141313;
+}
+
+
+/* Parte do body, container e meio */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 130px;
+    margin-bottom: 150px ;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    padding: 20px;
+    height: 500px;
+   
+}
