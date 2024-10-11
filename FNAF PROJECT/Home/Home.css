@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(Home_Imagens/Fundo\ 2.png);
+    background-position: center;
+}
+
+/* Começo Da Barra De Navegação */
+
+.barra {
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    width: 100%;
+}
+
+.barra img {
+    height: 9%;
+    width: 9%;
+    margin-left: 4%;
+    margin-right: 13%;
+    justify-content: left;
+}
+
+.barra a {
+    color: white;
+    text-decoration-line: none;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+/* Fim Da Barra De Navegação */
+
+/* Começo Do Primeiro Container 
+    Com a Primeira Imagem */
+
+.container {
+    background-color: rgba(19, 18, 18, 0.836);
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    height: 400px;
+    width: 900px;
+    margin-left: 180px;
+    border-radius: 10%;
+}
+
+.container img {
+    margin-top: 1.5%;
+    border-radius: 10%;
+    height: 94%;
+    width: 868px;
+}
+
+/* Fim Do Primeiro Container 
+    Com a Primeira Imagem */
+
+/* Texto De Bem Vindo */
+
+.texto1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(43, 41, 41, 0.884);
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10%;
+    width: 550px;
+    margin-left: 346.7px;
+}
+
+.texto1 h2 {
+    font-size: 30px;
+}
+
+/* Fim Do Texto De Bem Vindo */
+
+/* Começo Do Segundo Container Com o Texto Da Freddy's */
+
+
+.container2 {
+    background-color: rgba(43, 41, 41, 0.884);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;    
+    width: 700px;
+    height: 170px;
+    margin-left: 283px;
+    border-radius: 15.7%;
+}
+
+.container2 h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Fim Do Segundo Container Com o Texto Da Freddy's */
+
+footer {
+    background-color: rgba(27, 25, 25, 0.884);
+    width: 100%;
+    padding: 30px;
+}
+
+.ajuste {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
